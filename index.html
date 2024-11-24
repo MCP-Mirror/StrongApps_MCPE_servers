@@ -3,25 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cDev MicroSystems + Software</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Сервера Minecraft: Pocket Edition</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .server-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .server-item {
+            background-color: #222;
+            border: 1px solid #555;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        button {
+            background-color: gray;
+            color: white
+        }
+       .redcolor {
+            color: red
+        }
+        .description1 {
+            background-color: gray;
+            color: white
+        }
+       .offline {
+           background-color: red;
+           color: white
+       }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>strongapps.github.io/download_dl</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About us</h2>
-            <p>cdev-microsystems is a dev with a firmware (lost) and apps (also lost) This is not a just page, this is a "fastdl" page.</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Contact with us by E-mail thirdplay6@gmail.com.</p>
-        </section>
-    </main>
+    <h1>Сервера Minecraft: Pocket Edition</h1>
+        <ul>
+            <button><a href="index1.html">0.14.3</a></button><button><a href="index2.html">1.14.60</a></button>
+        </ul>
+    <ul class="server-list">
+        <li class="server-item">
+            <strong><div class="redcolor">Luxure</div>Server</strong> luxure-serv.hopto.org:25493<br>
+            <strong>Версия:</strong> 0.14.3<br>
+            <strong>Описание:</strong> <div class="description1">A MCPE Server.</div>
+        </li>
+        <li class="server-item">
+            <strong>Сервер 2:</strong> mcpeFunPixel.aternos.org:17638<br>
+            <strong>Версия:</strong> 1.14.60<br>
+            <strong>Описание:</strong> <div class="description1">PocketMine-MP Server </div><br><div class="offline">OFFLINE</div>
+        </li>
+        <li class="server-item">
+            <strong>Запросить добавление</strong> <br>Вы можете запросить добавление сервера, написав на thirdplay6@gmail.com IP и порт сервера.
+            
+        </li>
+    </ul>
     <footer>
-        <p>&copy; 2023-2024 cDev MicroSystems</p>
+        <p>&copy; 2024 Все права защищены. Minecraft Server List</p>
     </footer>
 </body>
 </html>
+
