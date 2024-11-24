@@ -1,1 +1,1 @@
-This is a has to be a normal but it bugged a bit.
+Open Source Website where you can view MCPE Server. 
